@@ -16,10 +16,10 @@ plugins {
 }
 
 dependencies {
-    runtimeOnly "com.netflix.conductor:conductor-postgres-persistence:3.13.2"
-
     implementation project(':conductor-rest')
     implementation project(':conductor-core')
+    implementation project(':conductor-common-persistence')
+    implementation project(':conductor-postgres-persistence')
     implementation project(':conductor-redis-persistence')
     implementation project(':conductor-cassandra-persistence')
     implementation project(':conductor-es6-persistence')

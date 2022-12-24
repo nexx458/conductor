@@ -39,6 +39,13 @@ include 'client'
 include 'client-spring'
 
 include 'cassandra-persistence'
+
+include 'test-util'
+
+include 'common-persistence'
+
+include 'postgres-persistence'
+
 include 'redis-persistence'
 
 include 'es6-persistence'
